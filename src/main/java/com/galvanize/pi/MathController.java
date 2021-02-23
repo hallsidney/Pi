@@ -1,4 +1,4 @@
-package.com.galvanize;
+package com.galvanize.pi;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MathController {
 
     @GetMapping("/math/pi")
-    public int getIndex() {
-        return 3.141592653589793;
+    public String getIndex() {
+        return "3.141592653589793";
     }
 
 }
